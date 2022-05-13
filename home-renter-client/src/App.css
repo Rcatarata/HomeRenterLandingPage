@@ -64,9 +64,11 @@ li:hover{
 
 p{
   color: rgb(130, 128, 128);
+  margin: 0;
 }
 
 .white--container{
+  margin-top: 20px;
   height: 70px;
   width: 100%; 
   background-color: white;
@@ -80,6 +82,22 @@ p{
   border: 15px solid rgb(62, 62, 62);
   border-radius: 20px;
 
+}
+
+svg{
+  height: 20px;
+  fill:rgb(131, 207, 131);
+  stroke: black;
+}
+
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: solid 1px black;
+  border-radius: 50%;;
 }
 
 .bottom--hero{
